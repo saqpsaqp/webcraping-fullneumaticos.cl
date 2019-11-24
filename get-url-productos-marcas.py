@@ -1,5 +1,5 @@
 '''
-Desc:   WebCrapping to extract tires data from fullneumaticos.cl
+Desc:   WebCrapping to extract url of products by marca from fullneumaticos.cl
 Author: Saúl Quintero
         saqpsaqp@gmail.com
 '''
@@ -12,7 +12,7 @@ import sys
 import numpy as NP
 
 class WebCraping:
-    dataExtraida = []
+    
     urlsProductosEncontrados = []
     urlBase = ""
 
